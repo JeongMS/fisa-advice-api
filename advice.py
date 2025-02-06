@@ -1,9 +1,6 @@
 import requests
 import os
 from datetime import datetime
-import dotenv
-
-dotenv.load_dotenv()
 
 URL = f"https://api.adviceslip.com/advice"
 
