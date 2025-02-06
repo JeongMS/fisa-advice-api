@@ -22,9 +22,10 @@ def update_readme():
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     readme_content = f"""
-# 마음에 새깁시다.......
+# 1분에 1개씩 마음에 새깁시다.......
 
 > {advice_info}
+
 """
 
     with open(README_PATH, "w", encoding="utf-8") as file:
