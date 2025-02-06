@@ -1,9 +1,9 @@
-# .github/workflows/update_weather.yml
+# .github/workflows/give_advice.yml
 name: Give an advice.
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # 매일 오후 3시 (UTC 기준 6시)
+    - cron: "*/1 * * * *" # 매분 (UTC 기준 6시)
   workflow_dispatch: # 수동 실행 가능
 
 jobs:
