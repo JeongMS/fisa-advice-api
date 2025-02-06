@@ -3,7 +3,7 @@ name: Give an advice.
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # 매분 (UTC 기준 6시)
+    - cron: "*/10 * * * *" # 매분 (UTC 기준 6시)
   workflow_dispatch: # 수동 실행 가능
 
 jobs:
