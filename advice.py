@@ -22,7 +22,7 @@ def update_readme():
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     readme_content = f"""
-# 1분에 1개씩 마음에 새깁시다.......
+# 10분에 1문장씩 마음에 새깁시다.......
 
 > {advice_info}
 
